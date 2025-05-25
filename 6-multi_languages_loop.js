@@ -9,4 +9,5 @@ let output = '';
 for (const line of languages) {
     output += line + '\n';
 }
-console.log(output);
+const finalOutput = output.slice(0, -1);
+console.log(finalOutput);
